@@ -65,7 +65,7 @@ let arrayObject = {
         "para convencer o ferro a se dobrar",
         "para lembrar algo que foi apagado da mente",
         "para pagar uma dívida com a Morte"
-    ]
+    ],
 }
 const randomPhraseMaker = () => {
 
@@ -74,6 +74,7 @@ const randomPhraseMaker = () => {
     let reasonNumber = Math.floor(Math.random()* arrayObject.reasonToNeedThatItem.length);
 
     console.log(arrayObject.startingPhrases[startingNumber] + arrayObject.itemsNeeded[itemNumber] + arrayObject.reasonToNeedThatItem[reasonNumber]); 
+
 }
 
 randomPhraseMaker()
