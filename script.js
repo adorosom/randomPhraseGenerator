@@ -67,7 +67,7 @@ let arrayObject = {
         "para pagar uma dívida com a Morte"
     ],
 }
-const randomPhraseMaker = () => {
+const randomPhraseGenerator = () => {
 
     let startingNumber = Math.floor(Math.random()* arrayObject.startingPhrases.length) ;
     let itemNumber = Math.floor(Math.random() * arrayObject.itemsNeeded.length);
@@ -77,4 +77,4 @@ const randomPhraseMaker = () => {
 
 }
 
-randomPhraseMaker()
+randomPhraseGenerator()
